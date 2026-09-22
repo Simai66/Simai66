@@ -1,0 +1,103 @@
+name: Update profile graphics
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-graphics.yml"
+  schedule:
+    - cron: "23 1 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: false
+
+jobs:
+  pacman:
+    name: Generate Pac-Man
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Generate light and dark Pac-Man SVGs
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
+        with:
+          github_user_name: Simai66
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: pacman
+
+      - name: Check generated SVGs
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          for name in ("pacman-contribution-graph.svg", "pacman-contribution-graph-dark.svg"):
+              path = Path("dist") / name
+              root = ET.parse(path).getroot()
+              assert root.tag.split("}")[-1] == "svg", f"Invalid SVG: {path}"
+              assert path.stat().st_size > 100, f"Empty SVG: {path}"
+          PY
+
+      - name: Save Pac-Man images
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: pacman-output
+          publish_dir: ./dist
+          keep_files: true
+          force_orphan: false
+          commit_message: "Update Pac-Man contribution graphs"
+
+  trophy:
+    name: Generate trophies
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Generate trophy SVG from GitHub data
+        uses: ryo-ma/github-profile-trophy@e3c89df995e92e67cdd4b2acaab9d974583dc1f7
+        with:
+          username: Simai66
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output_path: .generated/trophy/trophy.svg
+          theme: dracula
+
+      - name: Check generated SVG
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          path = Path(".generated/trophy/trophy.svg")
+          root = ET.parse(path).getroot()
+          assert root.tag.split("}")[-1] == "svg", "Invalid trophy SVG"
+          assert path.stat().st_size > 100, "Empty trophy SVG"
+          PY
+
+      - name: Save trophy image
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: trophy-output
+          publish_dir: ./.generated/trophy
+          keep_files: true
+          force_orphan: false
+          commit_message: "Update GitHub trophies"
+
