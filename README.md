@@ -12,16 +12,23 @@
 </p>
 
 <p align="center">
-  <a href="https://panuwat-portfolio.web.app/en"><img src="https://img.shields.io/badge/VIEW_PORTFOLIO-0284C7?style=for-the-badge" alt="View portfolio"></a>
-  &nbsp;
-  <a href="mailto:panuwat.woeiram@gmail.com"><img src="https://img.shields.io/badge/EMAIL_ME-163B73?style=for-the-badge" alt="Email me"></a>
+  <a href="https://panuwat-portfolio.web.app/en"><img src="https://img.shields.io/badge/VIEW_PORTFOLIO-0284C7?style=for-the-badge" height="25" alt="View portfolio"></a>
+  <a href="https://www.linkedin.com/in/panuwat-pnw-61b764409">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&amp;logo=linkedin&amp;label=&amp;color=0077B5&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="LinkedIn">
+  </a>
+  <a href="https://www.instagram.com/m4i9z_/">
+    <img src="https://img.shields.io/static/v1?message=Instagram&amp;logo=instagram&amp;label=&amp;color=E4405F&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="Instagram">
+  </a>
+  <a href="mailto:panuwat.woeiram@gmail.com">
+    <img src="https://img.shields.io/static/v1?message=Gmail&amp;logo=gmail&amp;label=&amp;color=D14836&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="Email Panuwat">
+  </a>
+
 </p>
 
 <p align="center">
   <a href="#about-me">About</a> &nbsp;/&nbsp;
   <a href="#tech-stack">Stack</a> &nbsp;/&nbsp;
-  <a href="#featured-projects">Projects</a> &nbsp;/&nbsp;
-  <a href="#contact">Contact</a>
+  <a href="#featured-projects">Projects</a>
 </p>
 
 ---
@@ -177,29 +184,7 @@ My university project exploring image processing and IoT for plant-health monito
   <img width="100%" alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Simai66/Simai66/pacman-output/pacman-contribution-graph.svg">
 </picture>
 
-## Contact
-
-Interested in discussing frontend, web development, IoT, or coding education? Let's connect.
-
-<div data-importer="socials" align="center">
-  <a href="https://www.linkedin.com/in/panuwat-pnw-61b764409">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&amp;logo=linkedin&amp;label=&amp;color=0077B5&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="LinkedIn">
-  </a>
-  <a href="https://www.instagram.com/m4i9z_/">
-    <img src="https://img.shields.io/static/v1?message=Instagram&amp;logo=instagram&amp;label=&amp;color=E4405F&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="Instagram">
-  </a>
-  <a href="mailto:panuwat.woeiram@gmail.com">
-    <img src="https://img.shields.io/static/v1?message=Gmail&amp;logo=gmail&amp;label=&amp;color=D14836&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="Email Panuwat">
-  </a>
-</div>
 
 <p align="center">
-  <a href="https://panuwat-portfolio.web.app/en">View my portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:panuwat.woeiram@gmail.com">panuwat.woeiram@gmail.com</a>
-</p>
-
-<p align="center">
-  <sub>Panuwat Woeiram · <a href="https://github.com/Simai66">@Simai66</a></sub><br>
   <sub><a href="#top">Back to top ↑</a></sub>
 </p>
