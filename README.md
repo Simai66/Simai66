@@ -24,193 +24,162 @@
   <a href="#contact">Contact</a>
 </p>
 
-<br>
+---
 
-About Me
+## About Me
 
-I'm Panuwat, a Computer Science and Data Innovation student at Suan Sunandha Rajabhat University.
+I'm Panuwat, a **Computer Science and Data Innovation** student at **Suan Sunandha Rajabhat University**.
 
-My interests span frontend development, web applications, and IoT. My project experience includes shared-expense tracking, environmental monitoring, and applications of machine learning.
+My projects connect web interfaces with everyday needs: splitting expenses, reading sensor data, and monitoring growing environments. I've also taught **coding and robotics**, and explored machine learning through project work.
 
-I've also taught coding and robotics, alongside building my own projects.
+```js
+const panuwat = {
+  github: "Simai66",
+  focus: ["Frontend Development", "Web Development", "IoT"],
+  teaching: ["Coding", "Robotics"]
+};
+```
 
-<br>
+## Tech Stack
 
-Tech Stack
+Languages and tools I've worked with. My main focus is frontend development and web interfaces for IoT.
 
-Languages, frameworks, and tools.
+### Languages
 
-<div data-importer="techs" align="center">
-  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="TypeScript logo">
-  &nbsp;
-  <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="Next.js logo">
-  &nbsp;
-  <img src="https://skillicons.dev/icons?i=tailwind" height="60" alt="Tailwind CSS logo">
-  &nbsp;
-  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="AWS logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="60" alt="Android Studio logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="60" alt="Arduino logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="60" alt="Blender logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="60" alt="Bootstrap logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60" alt="CSS logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="60" alt="Docker logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="60" alt="FastAPI logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="60" alt="Figma logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="60" alt="Firebase logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="60" alt="Git logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" alt="HTML logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" alt="JavaScript logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="60" alt="Java logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="60" alt="LinkedIn logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="60" alt="Linux logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="60" alt="MongoDB logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="60" alt="MySQL logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="60" alt="Node.js logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="60" alt="Nginx logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" height="60" alt="Notion logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" height="60" alt="Nuxt logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="60" alt="npm logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="60" alt="OpenCV logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="60" alt="PHP logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="60" alt="PostgreSQL logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="60" alt="R logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="60" alt="Raspberry Pi logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="60" alt="React logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="60" alt="SQLite logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" height="60" alt="SSH logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="60" alt="Vue logo">
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="60" alt="VS Code logo">
-</div>
+<p>
+  <img src="https://skillicons.dev/icons?i=ts" width="40" height="40" alt="TypeScript" title="TypeScript">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript" title="JavaScript">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML" title="HTML">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" alt="CSS" title="CSS">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" title="Java">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" height="40" alt="PHP" title="PHP">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="40" height="40" alt="R" title="R">
+</p>
 
-<br>
+TypeScript · JavaScript · HTML · CSS · Java · PHP · R · Python
 
-Project experience by area:
+### Frontend
 
-Frontend & Web Development
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React" title="React">
+  <img src="https://skillicons.dev/icons?i=nextjs" width="40" height="40" alt="Next.js" title="Next.js">
+  <img src="https://skillicons.dev/icons?i=tailwind" width="40" height="40" alt="Tailwind CSS" title="Tailwind CSS">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="40" height="40" alt="Vue" title="Vue">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" width="40" height="40" alt="Nuxt" title="Nuxt">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="40" height="40" alt="Bootstrap" title="Bootstrap">
+</p>
 
-Responsive interfaces, forms, dashboards, and data visualization.
+React · Next.js · Tailwind CSS · Vue · Nuxt · Bootstrap · Vite · Recharts
 
-JavaScript TypeScript React Next.js Vite Tailwind CSS Recharts
+### Backend & Data
 
-Backend & Data
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js" title="Node.js">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40" height="40" alt="FastAPI" title="FastAPI">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL" title="PostgreSQL">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL" title="MySQL">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="MongoDB" title="MongoDB">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" height="40" alt="SQLite" title="SQLite">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" height="40" alt="Firebase" title="Firebase">
+</p>
 
-API integration, authentication, database-backed features, and file storage.
+Node.js · FastAPI · PostgreSQL · MySQL · MongoDB · SQLite · Firebase · Supabase · Cloudflare D1
 
-Supabase Auth Supabase Storage Supabase Edge Functions SQL PostgreSQL Cloudflare Workers Cloudflare D1
+### IoT & Computer Vision
 
-IoT & Embedded Systems
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="40" height="40" alt="Arduino" title="Arduino">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="40" height="40" alt="Raspberry Pi" title="Raspberry Pi">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="40" height="40" alt="OpenCV" title="OpenCV">
+</p>
 
-Sensor monitoring, device communication, and web interfaces for hardware control.
+Arduino · Raspberry Pi · OpenCV · ESP32 · ESP8266 · MQTT · Node-RED · TensorFlow Lite
 
-ESP32 ESP8266 Raspberry Pi MQTT Node-RED
+### Development & Cloud
 
-Applied AI & Computer Vision
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git" title="Git">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" title="Docker">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" title="Linux">
+  <img src="https://skillicons.dev/icons?i=aws" width="40" height="40" alt="AWS" title="AWS">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="40" height="40" alt="Nginx" title="Nginx">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" width="40" height="40" alt="SSH" title="SSH">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="40" height="40" alt="npm" title="npm">
+</p>
 
-Project experience with machine learning, image processing, and lightweight model inference.
+Git · Docker · Linux · AWS · Nginx · SSH · npm · GitHub · Vercel · Cloudflare Workers
 
-Python OpenCV TensorFlow Lite
+### Editors & Design
 
-Development & Deployment
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40" alt="VS Code" title="VS Code">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="40" height="40" alt="Android Studio" title="Android Studio">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" alt="Figma" title="Figma">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" width="40" height="40" alt="Blender" title="Blender">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" width="40" height="40" alt="Notion" title="Notion">
+</p>
 
-Version control, web deployment, and project build workflows.
+VS Code · Android Studio · Figma · Blender · Notion
 
-Git GitHub Vercel npm Vite
+---
 
-<br>
+## Featured Projects
 
-Featured Projects
+### 01 / คืนกัน · KhuenKan
 
-01 / คืนกัน · KhuenKan
+**Shared expenses, clear balances.**
 
-Shared bills, individual balances, and repayment records in one place.
+My web app project for keeping group bills, individual balances, and repayment records together. It supports equal, exact-amount, and percentage-based splits, plus PromptPay QR generation and recipient-confirmed repayments.
 
-A Thai-language web app for tracking group expenses and money owed. The implementation supports equal, exact-amount, and percentage-based splits, with repayment tracking and PromptPay QR generation.
+**Stack:** `Next.js` `React` `TypeScript` `Tailwind CSS` `Supabase`
 
-Next.js React TypeScript Tailwind CSS Supabase
+<sub>Status: End-to-end verification with two accounts and a banking app is still pending.</sub>
 
-<sub>Private source code · End-to-end payment verification remains incomplete.</sub>
+[Explore repository →](https://github.com/Simai66/KhuenKan)
 
-02 / MushCycle Smart
+### 02 / MushCycle Smart
 
-A sensor dashboard for a PLA biodegradation prototype.
+**Sensor data for a PLA biodegradation experiment.**
 
-A project exploring PLA biodegradation using spent mushroom substrate. The repository connects ESP32 readings to a web dashboard through a Supabase Edge API, with temperature, humidity, raw gas-sensor readings, and pump and relay control flows.
+My IoT project exploring PLA biodegradation with spent mushroom substrate. The dashboard brings ESP32 temperature, humidity, and raw gas-sensor readings into one view through a Supabase Edge API, alongside pump and relay controls.
 
-React Vite Recharts ESP32 Supabase
+**Stack:** `React` `Vite` `Recharts` `ESP32` `Supabase`
 
-Explore repository →
+[Explore repository →](https://github.com/Simai66/MushCycle-Smart-dashboard)
 
-03 / AI Smart Greenhouse
+### 03 / AI Smart Greenhouse
 
-Environmental readings and plant-health information for a tomato greenhouse.
+**A web interface for a tomato greenhouse.**
 
-My university project explores image processing and IoT for plant-health monitoring. The public repository includes a responsive dashboard, plant-monitoring views, device-control interactions, API contracts, and a reference Raspberry Pi agent.
+My university project exploring image processing and IoT for plant-health monitoring. The public code includes a responsive dashboard, plant-monitoring views, device-control interactions, API contracts, and a reference Raspberry Pi agent.
 
-React TypeScript Tailwind CSS Python Cloudflare D1
+**Stack:** `React` `TypeScript` `Tailwind CSS` `Python` `Cloudflare D1`
 
-<sub>Development stage · Dashboard data and the Pi relay adapter are simulated.</sub>
+<sub>Status: In development. Dashboard data and the Pi relay adapter are simulated.</sub>
 
-Explore repository →
+[Explore repository →](https://github.com/Simai66/smart-greenhouse-ai-starter)
 
-<br>
+---
 
-GitHub Activity
+## GitHub Activity
 
 <div data-importer="stats" align="center">
   <img src="https://streak-stats.demolab.com?user=Simai66&amp;locale=en&amp;mode=daily&amp;theme=dracula&amp;hide_border=false&amp;border_radius=5&amp;order=3" height="150" alt="GitHub contribution streak">
 </div>
 
-<!-- Requires trophy-output/trophy.svg in Simai66/Simai66. -->
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Simai66/Simai66/trophy-output/trophy.svg" width="100%" alt="GitHub trophies — generated SVG required">
+  <img src="https://raw.githubusercontent.com/Simai66/Simai66/trophy-output/trophy.svg" width="100%" alt="GitHub trophies">
 </div>
-
-<!-- Requires both SVG files on the pacman-output branch. -->
 
 <picture data-importer="pacman">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Simai66/Simai66/pacman-output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Simai66/Simai66/pacman-output/pacman-contribution-graph.svg">
-  <img width="100%" alt="Pac-Man contribution graph — generated SVG required" src="https://raw.githubusercontent.com/Simai66/Simai66/pacman-output/pacman-contribution-graph.svg">
+  <img width="100%" alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Simai66/Simai66/pacman-output/pacman-contribution-graph.svg">
 </picture>
 
-<br>
+## Contact
 
-Contact
-
-Interested in discussing frontend, web development, or IoT work?
+Interested in discussing frontend, web development, IoT, or coding education? Let's connect.
 
 <div data-importer="socials" align="center">
   <a href="https://www.linkedin.com/in/panuwat-pnw-61b764409">
@@ -224,8 +193,11 @@ Interested in discussing frontend, web development, or IoT work?
   </a>
 </div>
 
-View my portfolio
-panuwat.woeiram@gmail.com
+<p align="center">
+  <a href="https://panuwat-portfolio.web.app/en">View my portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:panuwat.woeiram@gmail.com">panuwat.woeiram@gmail.com</a>
+</p>
 
 <p align="center">
   <sub>Panuwat Woeiram · <a href="https://github.com/Simai66">@Simai66</a></sub><br>
