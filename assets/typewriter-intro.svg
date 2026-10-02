@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 410" width="900" height="410" role="img" aria-labelledby="title desc">
+<title id="title">Panuwat Woeiram — Frontend, Web and IoT</title>
+<desc id="desc">Simai66. Computer Science and Data Innovation student at SSRU. Projects: KhuenKan, MushCycle Smart and AI Smart Greenhouse. Experience teaching coding and robotics.</desc>
+<!-- Adapted from Typewriter Intro by Awesome GitHub Profile contributors.
+Source: https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/02-animated/typewriter-intro
+MIT License
+
+Copyright (c) 2026 Awesome GitHub Profile contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-->
+<defs>
+  <linearGradient id="stage" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#102c50"/>
+    <stop offset="1" stop-color="#080e1c"/>
+  </linearGradient>
+</defs>
+<rect width="900" height="410" rx="18" fill="url(#stage)"/>
+<rect x="24" y="20" width="852" height="370" rx="12" fill="#0d1524" stroke="#294463"/>
+<path d="M36 20h828q12 0 12 12v28H24V32q0-12 12-12" fill="#1b2a40"/>
+<circle cx="46" cy="40" r="6" fill="#ff5f56"/>
+<circle cx="66" cy="40" r="6" fill="#ffbd2e"/>
+<circle cx="86" cy="40" r="6" fill="#27c93f"/>
+<text x="450" y="45" text-anchor="middle" font-family="monospace" font-size="13" fill="#afc3d9">~/Simai66 — portfolio</text>
+<g font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="18">
+  <text x="46" y="94"><tspan fill="#7dd3fc">simai66</tspan><tspan fill="#93a9c2">:~$ </tspan><tspan fill="#e2e8f0">whoami</tspan></text>
+  <text x="46" y="127" font-size="27" font-weight="700" fill="#f0f7ff">Panuwat Woeiram</text>
+  <text x="46" y="154" fill="#a9bed6">CS &amp; Data Innovation student · SSRU</text>
+  <text x="46" y="192"><tspan fill="#7dd3fc">simai66</tspan><tspan fill="#93a9c2">:~$ </tspan><tspan fill="#e2e8f0">cat focus.md</tspan></text>
+  <text x="46" y="219" fill="#e2e8f0">Frontend · Web Development · IoT</text>
+  <text x="46" y="245" fill="#a9bed6">Teaching coding &amp; robotics</text>
+  <text x="46" y="283"><tspan fill="#7dd3fc">simai66</tspan><tspan fill="#93a9c2">:~$ </tspan><tspan fill="#e2e8f0">ls projects/</tspan></text>
+  <text x="46" y="311" fill="#7dd3fc">KhuenKan · MushCycle Smart · AI Smart Greenhouse</text>
+  <text x="46" y="348"><tspan fill="#7dd3fc">simai66</tspan><tspan fill="#93a9c2">:~$</tspan></text>
+  <rect x="160" y="332" width="10" height="20" fill="#7dd3fc">
+    <animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<path d="M24 366h852v12q0 12-12 12H36q-12 0-12-12z" fill="#162238"/>
+<g font-family="monospace" font-size="11" fill="#afc3d9">
+  <text x="46" y="382">UTF-8 · README.md</text>
+  <text x="854" y="382" text-anchor="end">Simai66 / Simai66</text>
+</g>
+</svg>
