@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://panuwat-portfolio.web.app/en">
-    <img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&amp;color=0:0B1220,55:163B73,100:0284C7&amp;height=180&amp;text=Panuwat%20Woeiram&amp;fontSize=42&amp;fontColor=FFFFFF&amp;fontAlignY=42&amp;desc=FRONTEND%20-%20WEB%20-%20IoT&amp;descSize=15&amp;descAlignY=66" alt="Panuwat Woeiram — Frontend, Web and IoT">
+    <img width="100%" src="./assets/typewriter-intro.svg" alt="Panuwat Woeiram — Computer Science student building frontend, web and IoT projects.">
   </a>
 </p>
 
@@ -17,10 +17,10 @@
     <img src="https://img.shields.io/static/v1?message=LinkedIn&amp;logo=linkedin&amp;label=&amp;color=0077B5&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="LinkedIn">
   </a>
   <a href="https://www.instagram.com/m4i9z_/">
-    <img src="https://img.shields.io/static/v1?message=Instagram&amp;logo=instagram&amp;label=&amp;color=E4405F&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="Instagram">
+    <img src="https://img.shields.io/static/v1?message=Instagram&amp;logo=instagram&amp;label=&amp;color=0369A1&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="Instagram">
   </a>
   <a href="mailto:panuwat.woeiram@gmail.com">
-    <img src="https://img.shields.io/static/v1?message=Gmail&amp;logo=gmail&amp;label=&amp;color=D14836&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="Email Panuwat">
+    <img src="https://img.shields.io/static/v1?message=Gmail&amp;logo=gmail&amp;label=&amp;color=163B73&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="Email Panuwat">
   </a>
 </p>
 
@@ -32,13 +32,17 @@
 
 ---
 
-## About Me
+<a id="about-me"></a>
+
+## About Me · `whoami`
 
 I'm Panuwat, a Computer Science and Data Innovation student at **Suan Sunandha Rajabhat University**.
 
 I work on web applications, IoT dashboards, and applied machine learning projects. I also have experience teaching **coding and robotics**.
 
-## Tech Stack
+<a id="tech-stack"></a>
+
+## Tech Stack · `cat stack.json`
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React" title="React">
@@ -136,7 +140,9 @@ VS Code · Android Studio · Figma · Blender · Notion
 
 ---
 
-## Featured Projects
+<a id="featured-projects"></a>
+
+## Featured Projects · `ls projects/`
 
 ### 01 / [คืนกัน · KhuenKan](https://github.com/Simai66/KhuenKan)
 
@@ -165,7 +171,9 @@ My university project exploring image processing and IoT for tomato plant-health
 
 ---
 
-## GitHub Activity
+<a id="github-activity"></a>
+
+## GitHub Activity · `git log`
 
 <div data-importer="stats" align="center">
   <img src="https://streak-stats.demolab.com?user=Simai66&amp;locale=en&amp;mode=daily&amp;theme=dracula&amp;hide_border=false&amp;border_radius=5&amp;order=3" height="150" alt="GitHub contribution streak">
