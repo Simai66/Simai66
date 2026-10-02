@@ -22,7 +22,6 @@
   <a href="mailto:panuwat.woeiram@gmail.com">
     <img src="https://img.shields.io/static/v1?message=Gmail&amp;logo=gmail&amp;label=&amp;color=D14836&amp;logoColor=white&amp;style=for-the-badge" height="25" alt="Email Panuwat">
   </a>
-
 </p>
 
 <p align="center">
@@ -35,21 +34,26 @@
 
 ## About Me
 
-I'm Panuwat, a **Computer Science and Data Innovation** student at **Suan Sunandha Rajabhat University**.
+I'm Panuwat, a Computer Science and Data Innovation student at **Suan Sunandha Rajabhat University**.
 
-My projects connect web interfaces with everyday needs: splitting expenses, reading sensor data, and monitoring growing environments. I've also taught **coding and robotics**, and explored machine learning through project work.
-
-```js
-const panuwat = {
-  github: "Simai66",
-  focus: ["Frontend Development", "Web Development", "IoT"],
-  teaching: ["Coding", "Robotics"]
-};
-```
+I work on web applications, IoT dashboards, and applied machine learning projects. I also have experience teaching **coding and robotics**.
 
 ## Tech Stack
 
-Languages and tools I've worked with. My main focus is frontend development and web interfaces for IoT.
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React" title="React">
+  <img src="https://skillicons.dev/icons?i=nextjs" width="40" height="40" alt="Next.js" title="Next.js">
+  <img src="https://skillicons.dev/icons?i=ts" width="40" height="40" alt="TypeScript" title="TypeScript">
+  <img src="https://skillicons.dev/icons?i=tailwind" width="40" height="40" alt="Tailwind CSS" title="Tailwind CSS">
+</p>
+
+- **Web:** React, Next.js, TypeScript, Vite, Tailwind CSS
+- **Data & APIs:** Supabase, PostgreSQL, Cloudflare Workers & D1
+- **IoT & ML:** ESP32, ESP8266, Raspberry Pi, MQTT, Node-RED, Python, OpenCV, TensorFlow Lite
+- **Workflow:** Git, GitHub, Vercel
+
+<details>
+<summary>View all languages and tools I've used</summary>
 
 ### Languages
 
@@ -128,43 +132,36 @@ Git · Docker · Linux · AWS · Nginx · SSH · npm · GitHub · Vercel · Clou
 
 VS Code · Android Studio · Figma · Blender · Notion
 
+</details>
+
 ---
 
 ## Featured Projects
 
-### 01 / คืนกัน · KhuenKan
+### 01 / [คืนกัน · KhuenKan](https://github.com/Simai66/KhuenKan)
 
-**Shared expenses, clear balances.**
+A web app for splitting group expenses and keeping track of who owes whom.
 
-My web app project for keeping group bills, individual balances, and repayment records together. It supports equal, exact-amount, and percentage-based splits, plus PromptPay QR generation and recipient-confirmed repayments.
+- **Features:** Equal, exact-amount, and percentage splits; repayment records; PromptPay QR with recipient confirmation.
+- **Built with:** Next.js, TypeScript, Tailwind CSS, Supabase.
 
-**Stack:** `Next.js` `React` `TypeScript` `Tailwind CSS` `Supabase`
+<sub>End-to-end verification with two accounts and a banking app is still pending.</sub>
 
-<sub>Status: End-to-end verification with two accounts and a banking app is still pending.</sub>
+### 02 / [MushCycle Smart](https://github.com/Simai66/MushCycle-Smart-dashboard)
 
-[Explore repository →](https://github.com/Simai66/KhuenKan)
+An IoT dashboard for a project exploring PLA biodegradation with spent mushroom substrate.
 
-### 02 / MushCycle Smart
+- **Features:** ESP32 temperature, humidity, and raw gas-sensor readings, plus pump and relay controls through a Supabase Edge API.
+- **Built with:** React, Vite, Recharts, ESP32, Supabase.
 
-**Sensor data for a PLA biodegradation experiment.**
+### 03 / [AI Smart Greenhouse](https://github.com/Simai66/smart-greenhouse-ai-starter)
 
-My IoT project exploring PLA biodegradation with spent mushroom substrate. The dashboard brings ESP32 temperature, humidity, and raw gas-sensor readings into one view through a Supabase Edge API, alongside pump and relay controls.
+My university project exploring image processing and IoT for tomato plant-health monitoring.
 
-**Stack:** `React` `Vite` `Recharts` `ESP32` `Supabase`
+- **Public code:** A responsive dashboard, plant-monitoring views, device-control interactions, API contracts, and a reference Raspberry Pi agent.
+- **Built with:** React, TypeScript, Tailwind CSS, Python, Cloudflare D1.
 
-[Explore repository →](https://github.com/Simai66/MushCycle-Smart-dashboard)
-
-### 03 / AI Smart Greenhouse
-
-**A web interface for a tomato greenhouse.**
-
-My university project exploring image processing and IoT for plant-health monitoring. The public code includes a responsive dashboard, plant-monitoring views, device-control interactions, API contracts, and a reference Raspberry Pi agent.
-
-**Stack:** `React` `TypeScript` `Tailwind CSS` `Python` `Cloudflare D1`
-
-<sub>Status: In development. Dashboard data and the Pi relay adapter are simulated.</sub>
-
-[Explore repository →](https://github.com/Simai66/smart-greenhouse-ai-starter)
+<sub>In development: dashboard data and the Pi relay adapter are simulated.</sub>
 
 ---
 
