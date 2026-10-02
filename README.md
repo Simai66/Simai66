@@ -45,10 +45,10 @@ I work on web applications, IoT dashboards, and applied machine learning project
 ## Tech Stack · `cat stack.json`
 
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React" title="React">
-  <img src="https://skillicons.dev/icons?i=nextjs" width="40" height="40" alt="Next.js" title="Next.js">
-  <img src="https://skillicons.dev/icons?i=ts" width="40" height="40" alt="TypeScript" title="TypeScript">
-  <img src="https://skillicons.dev/icons?i=tailwind" width="40" height="40" alt="Tailwind CSS" title="Tailwind CSS">
+  <img src="https://img.shields.io/badge/React-163B73?style=flat-square" height="24" alt="React">
+  <img src="https://img.shields.io/badge/Next.js-163B73?style=flat-square" height="24" alt="Next.js">
+  <img src="https://img.shields.io/badge/TypeScript-163B73?style=flat-square" height="24" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-163B73?style=flat-square" height="24" alt="Tailwind CSS">
 </p>
 
 - **Web:** React, Next.js, TypeScript, Vite, Tailwind CSS
@@ -175,6 +175,9 @@ My university project exploring image processing and IoT for tomato plant-health
 
 ## GitHub Activity · `git log`
 
+<details>
+<summary>View contribution streak, trophies and Pac-Man graph</summary>
+
 <div data-importer="stats" align="center">
   <img src="https://streak-stats.demolab.com?user=Simai66&amp;locale=en&amp;mode=daily&amp;theme=dracula&amp;hide_border=false&amp;border_radius=5&amp;order=3" height="150" alt="GitHub contribution streak">
 </div>
@@ -188,6 +191,8 @@ My university project exploring image processing and IoT for tomato plant-health
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Simai66/Simai66/pacman-output/pacman-contribution-graph.svg">
   <img width="100%" alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Simai66/Simai66/pacman-output/pacman-contribution-graph.svg">
 </picture>
+
+</details>
 
 
 <p align="center">
